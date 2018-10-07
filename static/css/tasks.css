@@ -13,7 +13,7 @@ header {
   height: 4rem;
   width: 100%;
   margin: 0;
-  background-color: #37abc8;
+  background-color: #379ac8;
 }
 
 h1 {
@@ -21,7 +21,9 @@ h1 {
   color: #fff;
   font-family: sans-serif, Helvetica, Arial;
   line-height: 2rem;
+  font-size: 1.4rem;
   padding: 1rem;
   flex: 1;
   font-weight: normal;
+  text-align: center;
 }

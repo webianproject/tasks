@@ -1,0 +1,23 @@
+{
+  "name": "webian-tasks",
+  "version": "0.1.0",
+  "description": "Task management web app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webianproject/tasks.git"
+  },
+  "author": "Ben Francis",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/webianproject/tasks/issues"
+  },
+  "homepage": "https://github.com/webianproject/tasks#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

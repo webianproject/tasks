@@ -3,8 +3,8 @@
   "short_name": "Tasks",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "64x64",
+      "src": "/images/icon.png",
+      "sizes": "128x128",
       "type": "image/png"
     }
   ],
