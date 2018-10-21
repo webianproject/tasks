@@ -2,15 +2,21 @@
 <html>
   <head>
     <title>Webian Tasks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="application-name" content="Webian Tasks">
     <link rel="manifest" href="app.webmanifest">
     <link rel="shortcut icon" href="images/icon.png" />
     <link rel="stylesheet" href="css/tasks.css" type="text/css" />
+    <script type="text/javascript" src="js/lib/pouchdb/pouchdb.min.js"></script>
+    <script type="text/javascript" src="js/lib/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script type="text/javascript" src="js/components/TaskElement.js"></script>
+    <script type="text/javascript" src="js/Database.js"></script>
     <script type="text/javascript" src="js/Tasks.js"></script>
   </head>
   <body>
     <header>
       <h1>Tasks</h1>
     </header>
-  </body>
+    <main id="tasks"></main>
+   </body>
 </html>
